@@ -33,7 +33,6 @@
             width: 250px;
             height: auto;
             background-color: #ffffff;
-
             padding: 40px;
             transition: transform 0.3s, box-shadow 0.3s;
         }
@@ -49,14 +48,13 @@
 
     <div class="logos">
         <a href="car.html?brand=hyundai" target="_blank">
-            <img src="c:\laragon\www\images\hyundai-seeklogo.png" alt="هونداي">
+            <img src="images/hyundai-seeklogo.png" alt="هونداي">
         </a>
         <a href="car.html?brand=kia" target="_blank">
-            <img src="kia-new-2021-seeklogo.png" alt="شعار كيا">
-
+            <img src="images/kia-new-2021-seeklogo.png" alt="كيا">
         </a>
         <a href="car.html?brand=mazda" target="_blank">
-            <img src="c:\laragon\www\images\mazda-seeklogo.png" alt="مازدا">
+            <img src="images/mazda-seeklogo.png" alt="مازدا">
         </a>
     </div>
 </body>
@@ -122,7 +120,7 @@
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "Authorization": "" // المفتاح في مكانه الصحيح
+                        "Authorization": "" // ضع مفتاح API هنا إذا عندك
                     },
                     body: JSON.stringify({ inputs: question })
                 });
